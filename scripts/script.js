@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Inicialización de Splide (Solo si existe en la página)
     const carouselCheck = document.querySelector('#project-carousel');
     if (carouselCheck) {
         var splide = new Splide('#project-carousel', {
@@ -20,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
         splide.mount();
     }
 
-    // 2. Lógica de Modo Claro/Oscuro
     const themeToggle = document.getElementById('theme-toggle');
     const htmlElement = document.documentElement;
     const themeIcon = themeToggle.querySelector('i');
@@ -36,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Leer estado inicial
     const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
     setTheme(savedTheme);
 
