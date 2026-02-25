@@ -1,65 +1,320 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Name - CV with Pong Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Alejandro Robu | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
-<body>
+<body id="home">
+
+    <!-- HEADER -->
     <header>
-        <div class="container">
-            <h1>Your Name</h1>
-            <p>Web Developer | Graphic Designer | Problem Solver</p>
-            <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
-        </div>
-    </header>
-    
-    <section class="container">
-        <section class="bio">
-            <h2>About Me</h2>
-            <p>Brief introduction about yourself. A few sentences about your background, passion, and career goals.</p>
-        </section>
-
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5, CSS3, JavaScript</li>
-                <li>React, Node.js, Express</li>
-                <li>Adobe Photoshop, Illustrator</li>
-                <li>Project Management, Communication</li>
+        <nav class="container">
+            <a href="#home" class="logo">Alejandro<span>Robu</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
 
-        <section class="experience">
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Job Title</h3>
-                <p><strong>Company Name</strong> | Location | Year – Present</p>
-                <ul>
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                    <li>Responsibility 3</li>
-                </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <div class="social-icons">
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://arvideogames.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://github.com/alejandro-robu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="assets/CV_AlejandroRomeroBurgada.pdf" target="_blank" rel="noopener noreferrer" title="Ver CV">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                    </a>
+                </div>
             </div>
-        </section>
+        </nav>
+    </header>
 
-        <section class="education">
-            <h2>Education</h2>
-            <p><strong>Degree Name</strong> | University Name | Year of Graduation</p>
-        </section>
-        
-        <section class="game">
-            <h2>Play Pong!</h2>
-            <canvas id="pong" width="800" height="400"></canvas>
-        </section>
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="assets/my_face.jpg" alt="My Profile Picture">
+            </div>
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>I am a passionate Game Programmer focused on creating immersive experiences. Specialized in gameplay mechanics and systems optimization. I love solving complex problems and bringing worlds to life.</p>
+                
+                <div class="skills-container">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Unity</span>
+                        <span class="skill-tag">Unreal Engine 5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- PROJECTS -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h1 style="padding-bottom: 40px;">Projects</h1>
+            <div class="splide" id="project-carousel">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <!-- Cloud Wonder -->
+                        <li class="splide__slide">
+                            <div class="project-content">
+                                <div class="project-video">
+                                    <span class="project-status">In progress</span> 
+                                    <video width="100%" autoplay loop muted playsinline poster="assets/img_placeholder.jpeg">
+                                        <source src="assets/Cloud Walker/CloudWalker_placeHolder.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                
+                                <div class="project-info">
+                                    <a class="project-link">
+                                        <h2>Cloud Walker</h2>
+                                    </a>
+                                    
+                                    <p>
+                                        Cozy 2D mobile game developed as my Bachelor's Final Project. 
+                                        Players explore procedurally generated islands to collect unique birds, 
+                                        using a Wave Function Collapse-based system for level generation.
+                                        </p>
+                                    
+                                    <div class="project-skills-footer">
+                                        <span class="skill-tag">Unity</span>
+                                        <span class="skill-tag">C#</span>
+                                        <span class="skill-tag">Mobile</span>
+                                        <span class="skill-tag">PCG</span>
+                                        <span class="skill-tag">WFC</span>
+                                        <span class="skill-tag">Git</span>
+                                        <span class="skill-tag">2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Erebus-nyx -->
+                        <li class="splide__slide">
+                            <div class="project-content">
+                                <div class="project-video">
+                                    <span class="project-status">Finished</span> 
+                                    <video width="100%" autoplay loop muted playsinline poster="assets/img_placeholder.jpeg">
+                                        <source src="assets/Erebus-Nyx/Gameplay_Erebus-Nyx.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                
+                                <div class="project-info">
+                                    <a href="https://8rexlabs.itch.io/erebus-nyx" target="_blank" class="project-link">
+                                        <h2>Erebus-nyx<i class="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                                    </a>
+                                    
+                                    <p>Survival and psychological horror game set on an abandoned planet. The player, sent by an intergalactic company, must investigate a mysterious signal asking for help.</p>
+                                    
+                                    <div class="project-skills-footer">
+                                        <span class="skill-tag">UE5</span>
+                                        <span class="skill-tag">Blueprints</span>
+                                        <span class="skill-tag">Git</span>
+                                        <span class="skill-tag">2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Dude L -->
+                        <li class="splide__slide">
+                            <div class="project-content">
+                                <div class="project-video">
+                                    <span class="project-status">Finished</span> 
+                                    <video width="100%" autoplay loop muted playsinline poster="assets/img_placeholder.jpeg">
+                                        <source src="assets/DudeL/TrailerDudeL.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                
+                                <div class="project-info">
+                                    <a href="https://alferr.itch.io/dude-l" target="_blank" class="project-link">
+                                        <h2>Dude L<i class="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                                    </a>
+                                    
+                                    <p>2D platformer and puzzle game where a simple doodle comes to life. Created by a bored student on the last day of school, Dude L must jump, fight enemies, and solve clever puzzles while making his way through the pages of a notebook.</p>
+                                    
+                                    <div class="project-skills-footer">
+                                        <span class="skill-tag">Unity</span>
+                                        <span class="skill-tag">C#</span>
+                                        <span class="skill-tag">Leadership</span>
+                                        <span class="skill-tag">Git</span>
+                                        <span class="skill-tag">2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Rocket Land -->
+                        <li class="splide__slide">
+                            <div class="project-content">
+                                <div class="project-video">
+                                    <span class="project-status">Finished</span> 
+                                    <video width="100%" autoplay loop muted playsinline poster="assets/img_placeholder.jpeg">
+                                        <source src="assets/RocketLand/RocketLand.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                
+                                <div class="project-info">
+                                    <a href="https://arvideogames.itch.io/rocketland" target="_blank" class="project-link">
+                                        <h2>Rocket Land<i class="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                                    </a>
+                                    
+                                    <p>
+                                        2D platformer game where players control a ship, navigating through challenging levels and landing on safe spots. The goal is to complete each level efficiently, testing both precision and timing.
+                                    </p>
+                                    
+                                    <div class="project-skills-footer">
+                                        <span class="skill-tag">Unity</span>
+                                        <span class="skill-tag">C#</span>
+                                        <span class="skill-tag">Solo</span>
+                                        <span class="skill-tag">First Steeps</span>
+                                        <span class="skill-tag">2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Metal y Plomo -->
+                        <li class="splide__slide">
+                            <div class="project-content">
+                                <div class="project-video">
+                                    <span class="project-status">Finished</span> 
+                                    <video width="100%" autoplay loop muted playsinline poster="assets/img_placeholder.jpeg">
+                                        <source src="assets/MetalYPlomo/MetalYPlomo.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                
+                                <div class="project-info">
+                                    <a href="https://llama-larga.itch.io/metal-y-plomo" target="_blank" class="project-link">
+                                        <h2>Metal y Plomo<i class="fa-solid fa-arrow-up-right-from-square"></i></h2>
+                                    </a>
+                                    
+                                    <p>2D platformer featuring puzzles and shooting mechanics. Players navigate multi-level environments using a grappling tool for high mobility, solving challenges and progressing through complex levels.</p>
+                                    <div class="project-skills-footer">
+                                        <span class="skill-tag">Construct</span>
+                                        <span class="skill-tag">Teamwork</span>
+                                        <span class="skill-tag">First Steeps</span>
+                                        <span class="skill-tag">2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev" id="prevBtn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="splide__arrow splide__arrow--next" id="nextBtn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h1>Experience</h1>
+            <div class="timeline">
+            
+                <!-- FUTURA VIVE -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2024 - Feb 2025</div>
+                    <div class="timeline-content">
+                        <h3>Gameplay Programmer | Intern @ Futura Vive</h3>
+                        <ul>
+                            <li>Developed an online multiplayer cross-platform video game (VR and PC) focused on social interaction in shared virtual spaces.</li>
+                            <li>Implemented a real-time voice chat system enabling natural communication between players.</li>
+                            <li>Integrated a speech-to-text transcription system converting spoken dialogue into on-screen text.</li>
+                            <li>Designed and developed core VR gameplay mechanics and feature concepts.</li>
+                            <li>Worked as the main developer on a second VR project, responsible for VR/OVR systems.</li>
+                            <li>Created a room-building system allowing users to design custom escape rooms using hand tracking and controllers.</li>
+                            <li>Implemented save and load systems to store and reuse user-created rooms.</li>
+                            <li>Enabled users to define physical boundaries freely to create escape rooms in their own space.</li>
+                        </ul>
+                        <div class="skills-tags">
+                            <span>C#</span>
+                            <span>Unity</span>
+                            <span>Multiplayer</span>
+                            <span>VR</span>
+                            <span>OVR</span>
+                            <span>Voice Chat</span>
+                            <span>Speech-to-Text</span>
+                            <span>Gameplay Systems</span>
+                            <span>Hand Tracking</span>
+                            <span>Save Systems</span>
+                            <span>UI</span>
+                            <span>Testing</span>
+                            <span>Teamwork</span>
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW PERSONAL -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2023 - Dec 2023</div>
+                    <div class="timeline-content">
+                        <h3>Events Waiter @ New Personal</h3>
+                       <ul>
+                            <li>Developed strong interpersonal and problem-solving skills by working with clients in high-pressure environments.</li>
+                            <li>Demonstrated resilience and adaptability to ensure high client satisfaction.</li>
+                            <li>Managed time effectively while balancing work and academic commitments.</li>
+                            <li>Strengthened organisational and multitasking skills, directly transferable to managing multiple priorities as a programmer.</li>
+                            <li>Gained experience working collaboratively in a team, enhancing communication skills essential for game development projects.</li>
+                        </ul>
+                        <div class="skills-tags">
+                            <span>Communication</span>
+                            <span>Teamwork</span>
+                            <span>Problem Solving</span>
+                            <span>Time Management</span>
+                            <span>Adaptability</span>
+                            <span>Multitasking</span>
+                            <span>Organisation</span>
+                            <span>Customer Focus</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-alt">
+        <div class="container contact-box">
+            <h1>Contact</h1>
+            <p>I'm always open to new projects and collaborations.</p>
+            <a href="mailto:alejandro.romero.burgada@email.com?subject=Portfolio%20Contact&body=Hi%20Alejandro," class="contact-btn">
+                Send me an Email
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>Find me on: <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a> | <a href="https://github.com/your-username" target="_blank">GitHub</a></p>
+        <a class="logo">Turning <span>code</span></a>
+        <a class="logo">into<span> fun!</span></a>
+        <p>&copy; 2026 Alejandro Robu Portfolio.</p>
     </footer>
 
-    <script src="pong.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
