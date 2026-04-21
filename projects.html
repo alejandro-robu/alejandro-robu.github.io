@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Alejandro Robu</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html#home" class="logo">Alejandro<span>Robu</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="section project-detail-section">
+        <div class="container detail-content">
+            <a class="back-link" href="index.html#projects"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+            <h1>Project Breakdown</h1>
+            <p>Here you can find a deeper explanation of what I developed in each project, how I approached the work, and the most relevant technical decisions.</p>
+
+            <article class="project-detail-card" id="cloud-walker">
+                <h2>Cloud Walker</h2>
+                <p><strong>What I built:</strong> A cozy 2D mobile game as my Bachelor's Final Project, focused on exploration and collecting unique birds in procedurally generated islands.</p>
+                <p><strong>How I built it:</strong> I implemented a procedural generation pipeline using Wave Function Collapse (WFC), balancing generation rules to keep each island valid and fun. I also developed gameplay systems for progression, interaction and collection tracking.</p>
+                <ul>
+                    <li>Gameplay systems in Unity with C#.</li>
+                    <li>Procedural content generation with WFC constraints.</li>
+                    <li>Optimization and iteration for mobile performance.</li>
+                </ul>
+            </article>
+
+            <article class="project-detail-card" id="erebus-nyx">
+                <h2>Erebus-Nyx</h2>
+                <p><strong>What I built:</strong> A survival psychological horror game experience on an abandoned planet.</p>
+                <p><strong>How I built it:</strong> Worked with Unreal Engine 5 and Blueprints to implement mechanics that support tension and player uncertainty, while integrating level logic and event-driven interactions.</p>
+                <ul>
+                    <li>Gameplay prototyping and tuning in UE5.</li>
+                    <li>Blueprint systems for interactions and sequences.</li>
+                    <li>Collaborative development workflow with Git.</li>
+                </ul>
+            </article>
+
+            <article class="project-detail-card" id="dude-l">
+                <h2>Dude L</h2>
+                <p><strong>What I built:</strong> A 2D platformer/puzzle adventure where a notebook doodle comes to life.</p>
+                <p><strong>How I built it:</strong> I coordinated gameplay tasks and helped define level flow and player progression. The core implementation focused on movement feel, puzzle readability and challenge pacing.</p>
+                <ul>
+                    <li>Unity/C# gameplay and puzzle implementation.</li>
+                    <li>Team coordination and feature planning.</li>
+                    <li>Iteration based on testing feedback.</li>
+                </ul>
+            </article>
+
+            <article class="project-detail-card" id="rocket-land">
+                <h2>Rocket Land</h2>
+                <p><strong>What I built:</strong> A 2D precision platformer where players pilot a ship through hazardous levels and controlled landings.</p>
+                <p><strong>How I built it:</strong> As a solo project, I designed and developed all mechanics from scratch in Unity, with a strong focus on responsive controls, obstacle readability and level learning curve.</p>
+                <ul>
+                    <li>Solo end-to-end development.</li>
+                    <li>Physics tuning for precision movement.</li>
+                    <li>Level design focused on timing and control.</li>
+                </ul>
+            </article>
+
+            <article class="project-detail-card" id="metal-y-plomo">
+                <h2>Metal y Plomo</h2>
+                <p><strong>What I built:</strong> A 2D platformer with puzzle and combat components, including grappling-based traversal.</p>
+                <p><strong>How I built it:</strong> In a team setting, I contributed to gameplay logic, puzzle interactions and level progression. The objective was to create fast traversal while keeping puzzle complexity understandable.</p>
+                <ul>
+                    <li>Gameplay and puzzle collaboration in Construct.</li>
+                    <li>Iteration on mobility mechanics and challenge.</li>
+                    <li>Cross-discipline teamwork.</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -216,6 +216,12 @@ nav {
     opacity: 0.7;
 }
 
+.projects-helper {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: var(--text-sec);
+}
+
 .project-skills-footer {
     display: flex;
     flex-wrap: wrap;
@@ -357,4 +363,22 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #333; }
     border-radius: 8px;
     font-family: 'Courier New', monospace;
     border: 1px solid #333;
+}
+
+.project-detail-section {
+    margin-top: 90px;
+}
+
+.project-detail-card {
+    background: var(--bg-sec);
+    border: 1px solid rgba(255, 102, 0, 0.2);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 25px;
+}
+
+.project-detail-card ul {
+    margin-left: 20px;
+    color: var(--text-sec);
+    line-height: 1.8;
 }
