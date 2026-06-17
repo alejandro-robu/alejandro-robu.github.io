@@ -1,8 +1,15 @@
 /*
-  To replace a video placeholder:
-  1. Put your video in an assets folder.
-  2. Set video: "assets/your-video.mp4" inside the project object below.
-  3. The modal will render a <video> automatically instead of the placeholder.
+  Portfolio interactions:
+  - Responsive project rendering
+  - Project detail modal with internal menu
+  - ES/EN language toggle
+  - Dark/light theme toggle
+  - Subtle canvas background
+
+  Media placeholders:
+  - Replace every "assets/video-placeholder.mp4" with your real project videos.
+  - Replace every "assets/image-placeholder.jpg" with your real project images.
+  - You can use search/replace because every project uses the same placeholder names.
 */
 
 const translations = {
@@ -157,7 +164,12 @@ const projects = [
     tags: ['Unity', 'C#', 'Mobile', 'PCG', 'WFC', 'Git'],
     links: [],
     video: '../assets/CloudWander/CloudWander_placeHolder.mp4',
-    galleryCount: 3
+    image: '../assets/image-placeholder.jpg',
+    gallery: [
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg'
+    ]
   },
   {
     id: 'erebus-nyx',
@@ -192,8 +204,13 @@ const projects = [
     links: [
       { labelKey: 'playGame', url: 'https://8rexlabs.itch.io/erebus-nyx' }
     ],
-    video: '',
-    galleryCount: 3
+    video: '../assets/Erebus-Nyx/Gameplay_Erebus-Nyx.mp4',
+    image: '../assets/image-placeholder.jpg',
+    gallery: [
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg'
+    ]
   },
   {
     id: 'dude-l',
@@ -228,8 +245,13 @@ const projects = [
     links: [
       { labelKey: 'playGame', url: 'https://alferr.itch.io/dude-l' }
     ],
-    video: '',
-    galleryCount: 3
+    video: '../assets/DudeL/TrailerDudeL.mp4',
+    image: '../assets/image-placeholder.jpg',
+    gallery: [
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg'
+    ]
   },
   {
     id: 'rocket-land',
@@ -264,8 +286,13 @@ const projects = [
     links: [
       { labelKey: 'playGame', url: 'https://arvideogames.itch.io/rocketland' }
     ],
-    video: '',
-    galleryCount: 3
+    video: '../assets/RocketLand/RocketLand.mp4',
+    image: '../assets/image-placeholder.jpg',
+    gallery: [
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg'
+    ]
   },
   {
     id: 'metal-y-plomo',
@@ -300,8 +327,13 @@ const projects = [
     links: [
       { labelKey: 'playGame', url: 'https://llama-larga.itch.io/metal-y-plomo' }
     ],
-    video: '',
-    galleryCount: 3
+    video: '../assets/MetalYPlomo/MetalYPlomo.mp4',
+    image: '../assets/image-placeholder.jpg',
+    gallery: [
+      '../assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg',
+      'assets/image-placeholder.jpg'
+    ]
   }
 ];
 
@@ -355,9 +387,10 @@ function renderProjects() {
         <span>${project.year}</span>
       </div>
       <div class="project-media" aria-hidden="true">
+        <img src="${project.image || 'assets/image-placeholder.jpg'}" alt="" loading="lazy">
         <div class="project-media-content">
           <span class="project-media-title">${project.title}</span>
-          <span class="project-media-subtitle">${t('trailerPlaceholder')}</span>
+          <span class="project-media-subtitle">${localize(project.type)}</span>
         </div>
       </div>
       <h3>${project.title}</h3>
@@ -383,40 +416,32 @@ function renderProjects() {
 }
 
 function renderVideo(project) {
-  if (project.video) {
-    return `
-      <div class="video-placeholder video-wrapper">
-        <video controls playsinline preload="metadata" src="${project.video}"></video>
-      </div>
-    `;
-  }
+  const videoSrc = project.video || 'assets/video-placeholder.mp4';
+  const posterSrc = project.image || 'assets/image-placeholder.jpg';
 
   return `
-    <div class="video-placeholder" aria-label="${t('trailerPlaceholder')}">
-      <div class="video-placeholder-content">
-        <span class="video-placeholder-title">${project.title}</span>
-        <span class="video-placeholder-subtitle">${t('trailerHelp')}</span>
-      </div>
+    <div class="video-wrapper">
+      <video autoplay muted loop playsinline preload="auto" poster="${posterSrc}">
+        <source src="${videoSrc}" type="video/mp4">
+      </video>
     </div>
   `;
 }
-
 function renderGallery(project) {
-  const count = project.galleryCount || 3;
+  const images = project.gallery && project.gallery.length
+    ? project.gallery
+    : ['assets/image-placeholder.jpg', 'assets/image-placeholder.jpg', 'assets/image-placeholder.jpg'];
+
   return `
     <div class="gallery-grid">
-      ${Array.from({ length: count }, (_, index) => `
-        <div class="gallery-placeholder">
-          <div class="gallery-placeholder-content">
-            <span class="gallery-placeholder-title">${t('galleryPlaceholder')} ${index + 1}</span>
-            <span class="gallery-placeholder-subtitle">${t('galleryHelp')}</span>
-          </div>
-        </div>
+      ${images.map((src, index) => `
+        <figure class="gallery-item">
+          <img src="${src}" alt="${project.title} image ${index + 1}" loading="lazy">
+        </figure>
       `).join('')}
     </div>
   `;
 }
-
 function renderLinks(project) {
   if (!project.links.length) {
     return `<p class="modal-description" style="text-align:center;">${t('noLinks')}</p>`;
