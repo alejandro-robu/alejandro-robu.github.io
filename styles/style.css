@@ -646,6 +646,18 @@ a {
   font-weight: 600;
 }
 
+.about-intro {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.about-outro {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

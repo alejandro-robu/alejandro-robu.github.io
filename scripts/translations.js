@@ -30,10 +30,13 @@ const translations = {
       "Strengthened organisation, teamwork and time management while balancing work and academic projects.",
     aboutEyebrow: "About",
     aboutTitle: "About Me",
+    aboutIntro: "Hi there!",
     aboutText1:
-      "I am a final-year Design and Development of Video Games and Virtual Environments student at UDIT, focused on gameplay programming, interactive mechanics and systems optimization.",
+      "I am a Game Programmer and a graduate in Design and Development of Video Games and Virtual Environments from UDIT. Focused on gameplay programming, interactive mechanics and systems optimization with Unity, Unreal Engine 5, C# and C++. I am currently looking for opportunities in the video game industry.",
     aboutText2:
-      "I enjoy solving complex problems, prototyping ideas and bringing virtual worlds to life through responsive controls, polished systems and player-focused experiences.",
+      "I love taking on challenges, solving complex problems and bringing virtual worlds to life through responsive controls, polished systems and player-focused experiences. I live in Spain and I am fully open to working abroad to step out of my comfort zone and keep growing. Beyond the screen, I enjoy the countryside, the outdoors and spending time with my family and friends.",
+    aboutOutro:
+      "Thank you for taking the time to look through my portfolio. Feel free to reach out — I'll always be happy to talk.",
     skillsEyebrow: "Toolkit",
     skillsTitle: "Skills",
     skillsProgramming: "Programming",
@@ -99,10 +102,13 @@ const translations = {
       "Reforcé organización, trabajo en equipo y gestión del tiempo mientras compaginaba trabajo y proyectos académicos.",
     aboutEyebrow: "Sobre mí",
     aboutTitle: "Sobre mí",
+    aboutIntro: "¡Hola!",
     aboutText1:
-      "Soy estudiante de último año de Diseño y Desarrollo de Videojuegos y Entornos Virtuales en UDIT, centrado en programación de gameplay, mecánicas interactivas y optimización de sistemas.",
+      "Soy programador de videojuegos, graduado en Diseño y Desarrollo de Videojuegos y Entornos Virtuales por UDIT. Centrado en programación de gameplay, mecánicas interactivas y optimización de sistemas con Unity, Unreal Engine 5, C# y C++. Actualmente busco oportunidades en la industria del videojuego.",
     aboutText2:
-      "Disfruto resolviendo problemas complejos, prototipando ideas y dando vida a mundos virtuales mediante controles responsivos, sistemas pulidos y experiencias centradas en el jugador.",
+      "Me encantan los retos, resolver problemas complejos y dar vida a mundos virtuales mediante controles responsivos, sistemas pulidos y experiencias centradas en el jugador. Vivo en España y estoy totalmente abierto a trabajar fuera para salir de mi zona de confort y seguir creciendo. Más allá de la pantalla, disfruto del campo, las actividades al aire libre y pasar tiempo con mi familia y amigos.",
+    aboutOutro:
+      "Muchas gracias por tomarte el tiempo de ver mi portfolio. No dudes en escribirme: siempre estaré encantado de hablar.",
     skillsEyebrow: "Herramientas",
     skillsTitle: "Habilidades",
     skillsProgramming: "Programación",

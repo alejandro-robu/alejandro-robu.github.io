@@ -59,7 +59,9 @@ const personalProjects = [
       "Procedural Spawning",
       "Git",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/AshfallSurvivor" },
+    ],
     video: "../assets/PersonalProjects/AshfallSurvivor/AshfallSurvivor.mp4",
     image: "../assets/PersonalProjects/AshfallSurvivor/cover.png",
     gallery: [
@@ -124,7 +126,9 @@ const personalProjects = [
       "3D",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/EnemiesFeedback" },
+    ],
     video: "../assets/BladeRush/BladeRush.mp4",
     image: "../assets/BladeRush/cover.png",
     gallery: [
@@ -192,7 +196,9 @@ const personalProjects = [
       "2D",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/MyTFG_ProceduralGeneration" },
+    ],
     video: "../assets/PersonalProjects/WFCProceduralTerrain/....mp4",
     image: "../assets/PersonalProjects/WFCProceduralTerrain/....png",
     gallery: [
@@ -259,7 +265,9 @@ const personalProjects = [
       "Gameplay Programming",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Boss-Hell" },
+    ],
     video: "../assets/PersonalProjects/BossHell/BossHell.mp4",
     image: "../assets/PersonalProjects/BossHell/cover.png",
     gallery: [
@@ -326,7 +334,9 @@ const personalProjects = [
       "Thread Safety",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Concurrent-Http-Server" },
+    ],
     video: "../assets/PersonalProjects/ConcurrentHttpServer/....mp4",
     image: "../assets/PersonalProjects/ConcurrentHttpServer/....png",
     gallery: [
@@ -390,7 +400,9 @@ const personalProjects = [
       "Real-Time Systems",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Factory-Simulator" },
+    ],
     video: "../assets/PersonalProjects/FactorySimulator/....mp4",
     image: "../assets/PersonalProjects/FactorySimulator/....png",
     gallery: [
@@ -454,7 +466,9 @@ const personalProjects = [
       "Delegates",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/PokeAPI-Pokedex" },
+    ],
     video: "../assets/PersonalProjects/PokeApiPokedex/....mp4",
     image: "../assets/PersonalProjects/PokeApiPokedex/....png",
     gallery: [
@@ -518,7 +532,9 @@ const personalProjects = [
       "Pathfinding",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+    ],
     video: "../assets/PersonalProjects/FarmingEQS/....mp4",
     image: "../assets/PersonalProjects/FarmingEQS/....png",
     gallery: [
@@ -582,7 +598,9 @@ const personalProjects = [
       "Game Systems",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Multiplayer-FPS" },
+    ],
     video: "../assets/PersonalProjects/MultiplayerFPS/....mp4",
     image: "../assets/PersonalProjects/MultiplayerFPS/....png",
     gallery: [
@@ -646,7 +664,9 @@ const personalProjects = [
       "Temporal-Difference Learning",
       "Data Analysis",
     ],
-    links: [],
+    links: [
+        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+    ],
     video: "../assets/PersonalProjects/QLearningSarsa/....mp4",
     image: "../assets/PersonalProjects/QLearningSarsa/....png",
     gallery: [
@@ -708,7 +728,9 @@ const personalProjects = [
       "Mutation",
       "Git",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/AI_GeneticAlgorithm" },
+    ],
     video: "../assets/PersonalProjects/GeneticAlgorithms/....mp4",
     image: "../assets/PersonalProjects/GeneticAlgorithms/....png",
     gallery: [
@@ -770,7 +792,9 @@ const personalProjects = [
       "Local Search",
       "Heuristics",
     ],
-    links: [],
+    links: [
+        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+    ],
     video: "../assets/PersonalProjects/ParametricOptimization/....mp4",
     image: "../assets/PersonalProjects/ParametricOptimization/....png",
     gallery: [
@@ -835,7 +859,9 @@ const personalProjects = [
       "Aspiration Search",
       "Board Game",
     ],
-    links: [],
+    links: [
+        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+    ],
     video: "../assets/PersonalProjects/FourInARow/FourInARow.mp4",
     image: "../assets/PersonalProjects/FourInARow/FourInARow_Cover.png",
     gallery: [
@@ -901,7 +927,9 @@ const personalProjects = [
       "Coroutines",
       "Solo Project",
     ],
-    links: [],
+    links: [
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/BulletHell" },
+    ],
     video: "../assets/PersonalProjects/BulletHell/BulletHell.mp4",
     image: "../assets/PersonalProjects/BulletHell/cover.png",
     gallery: [
@@ -965,7 +993,9 @@ const personalProjects = [
       "3D",
       "Solo Project",
     ],
-    links: [],
+    links: [
+         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+    ],
     video: "../assets/PersonalProjects/RobHouse/RobHouse.mp4",
     image: "../assets/PersonalProjects/RobHouse/cover.png",
     gallery: [
