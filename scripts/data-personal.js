@@ -472,12 +472,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/PokeAPI-Pokedex" },
     ],
-    video: "../assets/Personal Projects/PokeApi/PokeApi_Gameplay.mp4",
-    image: "../assets/Personal Projects/PokeApi/PokeApi_Cover.png",
+    video: "../assets/Personal Projects/PokeAPI/PokeAPI_Gameplay.mp4",
+    image: "../assets/Personal Projects/PokeAPI/PokeAPI_Cover.png",
     gallery: [
-      "../assets/Personal Projects/PokeApi/PokeApi_WBP.png",
-      "../assets/Personal Projects/PokeApi/PokeApi_InvokerCPP.png",
-      "../assets/Personal Projects/PokeApi/PokeApi_InvokerH.png",
+      "../assets/Personal Projects/PokeAPI/PokeAPI_WBP.png",
+      "../assets/Personal Projects/PokeAPI/PokeAPI_InvokerCPP.png",
+      "../assets/Personal Projects/PokeAPI/PokeAPI_InvokerH.png",
     ],
   },
   {
