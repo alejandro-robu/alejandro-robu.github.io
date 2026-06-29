@@ -1,7 +1,7 @@
 const teamProjects = [
   {
-    id: "cloud-wanderer",
-    title: "Cloud Wanderer",
+    id: "cloud-wander",
+    title: "Cloud Wander",
     year: "2026",
     statusKey: "statusFinished",
     type: { en: "Cozy 2D mobile game", es: "Juego cozy 2D para móvil" },
@@ -16,8 +16,8 @@ const teamProjects = [
       es: "Juego cozy 2D para móvil sobre explorar islas generadas proceduralmente y coleccionar aves únicas.",
     },
     description: {
-      en: "Cloud Wanderer is a cozy 2D mobile game developed as my Bachelor’s Final Project. Players explore procedurally generated islands to discover and collect unique birds. The project focuses on procedural level generation using a Wave Function Collapse-based system, mobile-friendly controls and a calm exploration loop.",
-      es: "Cloud Wanderer es un juego cozy 2D para móvil desarrollado como mi Trabajo de Fin de Grado. El jugador explora islas generadas proceduralmente para descubrir y coleccionar aves únicas. El proyecto se centra en generación procedural con un sistema basado en Wave Function Collapse, controles adaptados a móvil y un bucle de exploración relajado.",
+      en: "Cloud Wander is a cozy 2D mobile game developed as my Bachelor’s Final Project. Players explore procedurally generated islands to discover and collect unique birds. The project focuses on procedural level generation using a Wave Function Collapse-based system, mobile-friendly controls and a calm exploration loop.",
+      es: "Cloud Wander es un juego cozy 2D para móvil desarrollado como mi Trabajo de Fin de Grado. El jugador explora islas generadas proceduralmente para descubrir y coleccionar aves únicas. El proyecto se centra en generación procedural con un sistema basado en Wave Function Collapse, controles adaptados a móvil y un bucle de exploración relajado.",
     },
     contributions: {
       en: [
@@ -33,7 +33,7 @@ const teamProjects = [
     },
     tags: ["Unity", "C#", "Mobile", "PCG", "WFC", "Git"],
     links: [],
-    video: "../assets/CloudWanderer/CloudWander_placeHolder.mp4",
+    video: "../assets/CloudWander/CloudWander_placeHolder.mp4",
     image: "../assets/image-placeholder.jpg",
     gallery: [
       "assets/image-placeholder.jpg",

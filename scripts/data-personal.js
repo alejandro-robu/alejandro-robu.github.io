@@ -200,12 +200,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/MyTFG_ProceduralGeneration" },
     ],
-    video: "../assets/Personal Projects/WFCProceduralTerrain/....mp4",
-    image: "../assets/Personal Projects/WFCProceduralTerrain/....png",
+    video: "../assets/Personal Projects/WFC/WFC_Gameplay.mp4",
+    image: "../assets/Personal Projects/WFC/WFC_Cover.png",
     gallery: [
-      "../assets/Personal Projects/WFCProceduralTerrain/....png",
-      "../assets/Personal Projects/WFCProceduralTerrain/....png",
-      "../assets/Personal Projects/WFCProceduralTerrain/....png",
+      "../assets/Personal Projects/WFC/WFC_1.png",
+      "../assets/Personal Projects/WFC/WFC_2.png",
+      "../assets/Personal Projects/WFC/WFC_3.png",
     ],
   },
   {
