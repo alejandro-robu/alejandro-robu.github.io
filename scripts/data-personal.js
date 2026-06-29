@@ -1,5 +1,5 @@
 const personalProjects = [
-   {
+  {
     id: "ashfall-survivor",
     title: "Ashfall Survivor",
     year: "2026",
@@ -62,19 +62,20 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/AshfallSurvivor" },
     ],
-    video: "../assets/PersonalProjects/AshfallSurvivor/AshfallSurvivor.mp4",
-    image: "../assets/PersonalProjects/AshfallSurvivor/cover.png",
+    video: "../assets/Personal Projects/AshfallSurvivor/AshfallSurvivor_Gameplay.mp4",
+    image: "../assets/Personal Projects/AshfallSurvivor/AshfallSurvivor_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/AshfallSurvivor/01.png",
-      "../assets/PersonalProjects/AshfallSurvivor/02.png",
-      "../assets/PersonalProjects/AshfallSurvivor/03.png",
+      "../assets/Personal Projects/AshfallSurvivor/PlayerStats.png",
+      "../assets/Personal Projects/AshfallSurvivor/EnemySpawner.png",
+      "../assets/Personal Projects/AshfallSurvivor/Upgrade.png",
+      "../assets/Personal Projects/AshfallSurvivor/UpgradePool.png",
     ],
   },
   {
     id: "blade-rush",
     title: "Blade Rush",
     year: "2026",
-    statusKey: "statusInProgress",
+    statusKey: "statusFinished",
     type: {
       en: "Top-down hack & slash",
       es: "Hack & Slash Top-Down",
@@ -129,12 +130,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/EnemiesFeedback" },
     ],
-    video: "../assets/BladeRush/BladeRush.mp4",
-    image: "../assets/BladeRush/cover.png",
+    video: "../assets/Personal Projects/BladeRush/BladeRush_Gameplay.mp4",
+    image: "../assets/Personal Projects/BladeRush/BladeRush_Cover.png",
     gallery: [
-      "../assets/BladeRush/01.png",
-      "../assets/BladeRush/02.png",
-      "../assets/BladeRush/03.png",
+      "../assets/Personal Projects/BladeRush/BladeRush_Cover.png"
+      // "../assets/BladeRush/02.png",
+      // "../assets/BladeRush/03.png",
     ],
   },
   {
@@ -268,12 +269,14 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Boss-Hell" },
     ],
-    video: "../assets/PersonalProjects/BossHell/BossHell.mp4",
-    image: "../assets/PersonalProjects/BossHell/cover.png",
+    video: "../assets/Personal Projects/BossHell/BossHell_Gameplay.mp4",
+    image: "../assets/Personal Projects/BossHell/BossHell_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/BossHell/01.png",
-      "../assets/PersonalProjects/BossHell/02.png",
-      "../assets/PersonalProjects/BossHell/03.png",
+      "../assets/Personal Projects/BossHell/BossHell_Attacks.png",
+      "../assets/Personal Projects/BossHell/BossHell_Data.png",
+      "../assets/Personal Projects/BossHell/BossHell_Movement.png",
+      "../assets/Personal Projects/BossHell/BossHell_Phases.png",
+      "../assets/Personal Projects/BossHell/BossHell_Patterns.png",
     ],
   },
   {
@@ -533,14 +536,14 @@ const personalProjects = [
       "Solo Project",
     ],
     links: [
-        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/FarmingEQS" },
     ],
-    video: "../assets/PersonalProjects/FarmingEQS/....mp4",
-    image: "../assets/PersonalProjects/FarmingEQS/....png",
+    video: "../assets/Personal Projects/FarmingEQS/FarmingEQS_Gameplay.mp4",
+    image: "../assets/Personal Projects/FarmingEQS/FarmingEQS_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/FarmingEQS/....png",
-      "../assets/PersonalProjects/FarmingEQS/....png",
-      "../assets/PersonalProjects/FarmingEQS/....png",
+      "../assets/Personal Projects/FarmingEQS/FarmingEQS_BT_NPC.png",
+      "../assets/Personal Projects/FarmingEQS/FarmingEQS_Spawner.png",
+      "../assets/Personal Projects/FarmingEQS/FarmingEQS_Storage.png",
     ],
   },
   {
@@ -624,8 +627,8 @@ const personalProjects = [
       es: "Programador de IA",
     },
     team: {
-      en: "3-person team",
-      es: "3 personas",
+      en: "Personal project",
+      es: "Proyecto personal",
     },
     short: {
       en: "Tabular reinforcement learning project implementing and comparing Q-Learning and SARSA on a maze navigation problem.",
@@ -645,7 +648,7 @@ const personalProjects = [
         "Ran an empirical comparison across multiple configurations and seeds, analysing convergence, success rate and policy differences.",
       ],
       es: [
-        "Implementé desde cero Q-Learning (off-policy) y SARSA (on-policy) tabulares en C#.",
+        "Implementé desde cero Q-Learning (off-policy) y SARSA (on-policy) en C#.",
         "Modelé el problema de navegación como un Proceso de Decisión de Markov con estados, acciones y recompensas.",
         "Construí la selección de acciones ε-greedy con decaimiento lineal de epsilon y el bucle de episodios agente-entorno.",
         "Añadí visualizaciones de la tabla Q, el mapa de calor de valores y la política derivada para interpretar el comportamiento aprendido.",
@@ -665,7 +668,7 @@ const personalProjects = [
       "Data Analysis",
     ],
     links: [
-        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ReinforcementLearning" },
     ],
     video: "../assets/PersonalProjects/QLearningSarsa/....mp4",
     image: "../assets/PersonalProjects/QLearningSarsa/....png",
@@ -754,8 +757,8 @@ const personalProjects = [
       es: "Programador de IA",
     },
     team: {
-      en: "3-person team",
-      es: "3 personas",
+      en: "Personal project",
+      es: "Proyecto personal",
     },
     short: {
       en: "Implementation and comparison of local search algorithms — Hill Climbing and Simulated Annealing — enhanced with momentum and random restarts.",
@@ -793,7 +796,7 @@ const personalProjects = [
       "Heuristics",
     ],
     links: [
-        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+        { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ParametricOptimization" },
     ],
     video: "../assets/PersonalProjects/ParametricOptimization/....mp4",
     image: "../assets/PersonalProjects/ParametricOptimization/....png",
@@ -860,7 +863,7 @@ const personalProjects = [
       "Board Game",
     ],
     links: [
-        // { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
+        { labelKey: "Github - sourceCode", url: "https://github.com/SamaelTFS/FourInARow" },
     ],
     video: "../assets/PersonalProjects/FourInARow/FourInARow.mp4",
     image: "../assets/PersonalProjects/FourInARow/FourInARow_Cover.png",
@@ -930,12 +933,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/BulletHell" },
     ],
-    video: "../assets/PersonalProjects/BulletHell/BulletHell.mp4",
-    image: "../assets/PersonalProjects/BulletHell/cover.png",
+    video: "../assets/Personal Projects/BulletAbsorber/BulletAbsorber_Gameplay.mp4",
+    image: "../assets/Personal Projects/BulletAbsorber/BulletAbsorber_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/BulletHell/01.png",
-      "../assets/PersonalProjects/BulletHell/02.png",
-      "../assets/PersonalProjects/BulletHell/03.png",
+      "../assets/Personal Projects/BulletAbsorber/Enemy_1.png",
+      "../assets/Personal Projects/BulletAbsorber/Enemy_1.png",
+      "../assets/Personal Projects/BulletAbsorber/MagePattern.png",
     ],
   },
   {
@@ -996,12 +999,12 @@ const personalProjects = [
     links: [
          { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/RobHouse" },
     ],
-    video: "../assets/PersonalProjects/RobHouse/RobHouse.mp4",
-    image: "../assets/PersonalProjects/RobHouse/cover.png",
+    video: "../assets/Personal Projects/RobHouse/RobHouse_Gameplay.mp4",
+    image: "../assets/Personal Projects/RobHouse/RobHouse_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/RobHouse/01.png",
-      "../assets/PersonalProjects/RobHouse/02.png",
-      "../assets/PersonalProjects/RobHouse/03.png",
+      "../assets/Personal Projects/RobHouse/RobHouse_Image.png",
+      "../assets/Personal Projects/RobHouse/RobHouse_Room.png",
+      "../assets/Personal Projects/RobHouse/RobHouse_RoomGenerator.png",
     ],
   }
 ];

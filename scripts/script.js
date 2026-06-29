@@ -141,7 +141,7 @@ function renderGallery(project) {
         .map(
           (src, index) => `
         <figure class="gallery-item">
-          <img src="${src}" alt="${project.title} image ${index + 1}" loading="lazy">
+          <img class="gallery-image" src="${src}" alt="${project.title} image ${index + 1}" loading="lazy" data-full="${src}">
         </figure>
       `,
         )
@@ -149,6 +149,7 @@ function renderGallery(project) {
     </div>
   `;
 }
+
 function renderLinks(project) {
   if (!project.links.length) {
     return `<p class="modal-description" style="text-align:center;">${t("noLinks")}</p>`;
@@ -221,6 +222,22 @@ function renderModal(project) {
   `;
 
   bindModalMenu();
+}
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+
+function openLightbox(src, alt) {
+  lightboxImage.src = src;
+  lightboxImage.alt = alt || "";
+  lightbox.classList.add("is-open");
+  lightbox.setAttribute("aria-hidden", "false");
+}
+
+function closeLightbox() {
+  lightbox.classList.remove("is-open");
+  lightbox.setAttribute("aria-hidden", "true");
+  lightboxImage.src = "";
 }
 
 function bindModalMenu() {
@@ -393,6 +410,19 @@ modal.addEventListener("click", (event) => {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && modal.classList.contains("is-open")) {
     closeModal();
+  }
+});
+
+modalBody.addEventListener("click", (event) => {
+  const img = event.target.closest(".gallery-image");
+  if (img) openLightbox(img.dataset.full, img.alt);
+});
+
+lightbox.addEventListener("click", closeLightbox);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+    closeLightbox();
   }
 });
 
