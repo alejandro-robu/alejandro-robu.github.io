@@ -77,7 +77,7 @@ const teamProjects = [
     links: [
       { labelKey: "playGame", url: "https://8rexlabs.itch.io/erebus-nyx" },
     ],
-    video: "../assets/Erebus-Nyx/Gameplay_Erebus-Nyx.mp4",
+    video: "../assets/Games/Erebus-Nyx/Gameplay_Erebus-Nyx.mp4",
     image: "../assets/image-placeholder.jpg",
     gallery: [
       "assets/image-placeholder.jpg",
@@ -116,12 +116,13 @@ const teamProjects = [
     },
     tags: ["Unity", "C#", "Leadership", "Git", "2D"],
     links: [{ labelKey: "playGame", url: "https://alferr.itch.io/dude-l" }],
-    video: "../assets/DudeL/TrailerDudeL.mp4",
-    image: "../assets/image-placeholder.jpg",
+    video: "../assets/Games/DudeL/TrailerDudeL.mp4",
+    image: "../assets/Games/DudeL/DudeL_Cover.png",
     gallery: [
-      "assets/image-placeholder.jpg",
-      "assets/image-placeholder.jpg",
-      "assets/image-placeholder.jpg",
+      "../assets/Games/DudeL/DudeL_1.png",
+      "../assets/Games/DudeL/DudeL_3.png",
+      "../assets/Games/DudeL/DudeL_4.png",
+      "../assets/Games/DudeL/DudeL_Cover.png",
     ],
   },
   {
@@ -160,12 +161,14 @@ const teamProjects = [
     links: [
       { labelKey: "playGame", url: "https://arvideogames.itch.io/rocketland" },
     ],
-    video: "../assets/RocketLand/RocketLand.mp4",
-    image: "../assets/image-placeholder.jpg",
+    video: "../assets/Games/RocketLand/RocketLand_Gameplay.mp4",
+    image: "../assets/Games/RocketLand/RocketLand_Cover.png",
+
     gallery: [
-      "assets/image-placeholder.jpg",
-      "assets/image-placeholder.jpg",
-      "assets/image-placeholder.jpg",
+      "../assets/Games/RocketLand/RocketLand_1.png",
+      "../assets/Games/RocketLand/RocketLand_2.png",
+      "../assets/Games/RocketLand/RocketLand_3.png",
+      "../assets/Games/RocketLand/RocketLand_Cover.png",
     ],
   },
   {

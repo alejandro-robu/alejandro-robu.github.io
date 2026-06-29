@@ -200,12 +200,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/MyTFG_ProceduralGeneration" },
     ],
-    video: "../assets/PersonalProjects/WFCProceduralTerrain/....mp4",
-    image: "../assets/PersonalProjects/WFCProceduralTerrain/....png",
+    video: "../assets/Personal Projects/WFCProceduralTerrain/....mp4",
+    image: "../assets/Personal Projects/WFCProceduralTerrain/....png",
     gallery: [
-      "../assets/PersonalProjects/WFCProceduralTerrain/....png",
-      "../assets/PersonalProjects/WFCProceduralTerrain/....png",
-      "../assets/PersonalProjects/WFCProceduralTerrain/....png",
+      "../assets/Personal Projects/WFCProceduralTerrain/....png",
+      "../assets/Personal Projects/WFCProceduralTerrain/....png",
+      "../assets/Personal Projects/WFCProceduralTerrain/....png",
     ],
   },
   {
@@ -340,12 +340,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Concurrent-Http-Server" },
     ],
-    video: "../assets/PersonalProjects/ConcurrentHttpServer/....mp4",
-    image: "../assets/PersonalProjects/ConcurrentHttpServer/....png",
+    video: "../assets/Personal Projects/ConcurrentHttpServer/....mp4",
+    image: "../assets/Personal Projects/ConcurrentHttpServer/....png",
     gallery: [
-      "../assets/PersonalProjects/ConcurrentHttpServer/....png",
-      "../assets/PersonalProjects/ConcurrentHttpServer/....png",
-      "../assets/PersonalProjects/ConcurrentHttpServer/....png",
+      "../assets/Personal Projects/ConcurrentHttpServer/....png",
+      "../assets/Personal Projects/ConcurrentHttpServer/....png",
+      "../assets/Personal Projects/ConcurrentHttpServer/....png",
     ],
   },
   {
@@ -406,12 +406,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Factory-Simulator" },
     ],
-    video: "../assets/PersonalProjects/FactorySimulator/....mp4",
-    image: "../assets/PersonalProjects/FactorySimulator/....png",
+    video: "../assets/Personal Projects/FactoryUnreal/FactoryUnreal_Gameplay.png",
+    image: "../assets/Personal Projects/FactoryUnreal/FactoryUnreal_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/FactorySimulator/....png",
-      "../assets/PersonalProjects/FactorySimulator/....png",
-      "../assets/PersonalProjects/FactorySimulator/....png",
+      "../assets/Personal Projects/FactoryUnreal/FactoryUnreal_1.png",
+      "../assets/Personal Projects/FactoryUnreal/FactoryUnreal_2.png",
+      "../assets/Personal Projects/FactoryUnreal/FactoryUnreal_3.png",
     ],
   },
   {
@@ -472,12 +472,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/PokeAPI-Pokedex" },
     ],
-    video: "../assets/PersonalProjects/PokeApiPokedex/....mp4",
-    image: "../assets/PersonalProjects/PokeApiPokedex/....png",
+    video: "../assets/Personal Projects/PokeApi/PokeApi_Gameplay.mp4",
+    image: "../assets/Personal Projects/PokeApi/PokeApi_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/PokeApiPokedex/....png",
-      "../assets/PersonalProjects/PokeApiPokedex/....png",
-      "../assets/PersonalProjects/PokeApiPokedex/....png",
+      "../assets/Personal Projects/PokeApi/PokeApi_WBP.png",
+      "../assets/Personal Projects/PokeApi/PokeApi_InvokerCPP.png",
+      "../assets/Personal Projects/PokeApi/PokeApi_InvokerH.png",
     ],
   },
   {
@@ -604,12 +604,11 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Multiplayer-FPS" },
     ],
-    video: "../assets/PersonalProjects/MultiplayerFPS/....mp4",
-    image: "../assets/PersonalProjects/MultiplayerFPS/....png",
+    video: "../assets/Personal Projects/FPSMultiplayerUnreal/MultiplayerFPS_Gameplay.mp4",
+    image: "../assets/Personal Projects/FPSMultiplayerUnreal/MultiplayerFPS_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/MultiplayerFPS/....png",
-      "../assets/PersonalProjects/MultiplayerFPS/....png",
-      "../assets/PersonalProjects/MultiplayerFPS/....png",
+      "../assets/Personal Projects/FPSMultiplayerUnreal/MultiplayerFPS_Cover.png",
+      "../assets/Personal Projects/FPSMultiplayerUnreal/MultiplayerFPS_Structure.png",
     ],
   },
   {
@@ -670,12 +669,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ReinforcementLearning" },
     ],
-    video: "../assets/PersonalProjects/QLearningSarsa/....mp4",
-    image: "../assets/PersonalProjects/QLearningSarsa/....png",
+    video: "../assets/Personal Projects/QLearningSarsa/....mp4",
+    image: "../assets/Personal Projects/QLearningSarsa/....png",
     gallery: [
-      "../assets/PersonalProjects/QLearningSarsa/....png",
-      "../assets/PersonalProjects/QLearningSarsa/....png",
-      "../assets/PersonalProjects/QLearningSarsa/....png",
+      "../assets/Personal Projects/QLearningSarsa/....png",
+      "../assets/Personal Projects/QLearningSarsa/....png",
+      "../assets/Personal Projects/QLearningSarsa/....png",
     ],
   },
   {
@@ -734,12 +733,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/AI_GeneticAlgorithm" },
     ],
-    video: "../assets/PersonalProjects/GeneticAlgorithms/....mp4",
-    image: "../assets/PersonalProjects/GeneticAlgorithms/....png",
+    video: "../assets/Personal Projects/GeneticAlgorithms/....mp4",
+    image: "../assets/Personal Projects/GeneticAlgorithms/....png",
     gallery: [
-      "../assets/PersonalProjects/GeneticAlgorithms/....png",
-      "../assets/PersonalProjects/GeneticAlgorithms/....png",
-      "../assets/PersonalProjects/GeneticAlgorithms/....png",
+      "../assets/Personal Projects/GeneticAlgorithms/....png",
+      "../assets/Personal Projects/GeneticAlgorithms/....png",
+      "../assets/Personal Projects/GeneticAlgorithms/....png",
     ],
   },
   {
@@ -798,12 +797,12 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ParametricOptimization" },
     ],
-    video: "../assets/PersonalProjects/ParametricOptimization/....mp4",
-    image: "../assets/PersonalProjects/ParametricOptimization/....png",
+    video: "../assets/Personal Projects/ParametricOptimization/....mp4",
+    image: "../assets/Personal Projects/ParametricOptimization/....png",
     gallery: [
-      "../assets/PersonalProjects/ParametricOptimization/....png",
-      "../assets/PersonalProjects/ParametricOptimization/....png",
-      "../assets/PersonalProjects/ParametricOptimization/....png",
+      "../assets/Personal Projects/ParametricOptimization/....png",
+      "../assets/Personal Projects/ParametricOptimization/....png",
+      "../assets/Personal Projects/ParametricOptimization/....png",
     ],
   },
   {
@@ -865,14 +864,14 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/SamaelTFS/FourInARow" },
     ],
-    video: "../assets/PersonalProjects/FourInARow/FourInARow.mp4",
-    image: "../assets/PersonalProjects/FourInARow/FourInARow_Cover.png",
+    video: "../assets/Personal Projects/FourInARow/FourInARow.mp4",
+    image: "../assets/Personal Projects/FourInARow/FourInARow_Cover.png",
     gallery: [
-      "../assets/PersonalProjects/FourInARow/AspirationSearch.png",
-      "../assets/PersonalProjects/FourInARow/MTD.png",
-      "../assets/PersonalProjects/FourInARow/NegaScout.png",
-      "../assets/PersonalProjects/FourInARow/NegaMaxAlphaBeta.png",
-      "../assets/PersonalProjects/FourInARow/NegaMaxWithSuspension.png",
+      "../assets/Personal Projects/FourInARow/AspirationSearch.png",
+      "../assets/Personal Projects/FourInARow/MTD.png",
+      "../assets/Personal Projects/FourInARow/NegaScout.png",
+      "../assets/Personal Projects/FourInARow/NegaMaxAlphaBeta.png",
+      "../assets/Personal Projects/FourInARow/NegaMaxWithSuspension.png",
     ],
   },
   {
