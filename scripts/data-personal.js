@@ -340,12 +340,13 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/Concurrent-Http-Server" },
     ],
-    video: "../assets/Personal Projects/ConcurrentHttpServer/....mp4",
-    image: "../assets/Personal Projects/ConcurrentHttpServer/....png",
+    video: "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_Gameplay.mp4",
+    image: "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_Cover.png",
     gallery: [
-      "../assets/Personal Projects/ConcurrentHttpServer/....png",
-      "../assets/Personal Projects/ConcurrentHttpServer/....png",
-      "../assets/Personal Projects/ConcurrentHttpServer/....png",
+      "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_1.png",
+      "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_2.png",
+      "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_3.png",
+      "../assets/Personal Projects/ConcurrentHttpServer/ConcurrentHttpServer_Cover.png",
     ],
   },
   {
@@ -669,12 +670,13 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ReinforcementLearning" },
     ],
-    video: "../assets/Personal Projects/QLearningSarsa/....mp4",
-    image: "../assets/Personal Projects/QLearningSarsa/....png",
+    video: "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_Gameplay.mp4",
+    image: "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_3.png",
     gallery: [
-      "../assets/Personal Projects/QLearningSarsa/....png",
-      "../assets/Personal Projects/QLearningSarsa/....png",
-      "../assets/Personal Projects/QLearningSarsa/....png",
+      "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_3.png",
+      "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_1.png",
+      "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_2.png",
+      "../assets/Personal Projects/ReinforcementLearning/ReinforcementLearning_4.png",
     ],
   },
   {
@@ -733,12 +735,13 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/AI_GeneticAlgorithm" },
     ],
-    video: "../assets/Personal Projects/GeneticAlgorithms/....mp4",
-    image: "../assets/Personal Projects/GeneticAlgorithms/....png",
+    video: "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_Gameplay.mp4",
+    image: "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_Cover.png",
     gallery: [
-      "../assets/Personal Projects/GeneticAlgorithms/....png",
-      "../assets/Personal Projects/GeneticAlgorithms/....png",
-      "../assets/Personal Projects/GeneticAlgorithms/....png",
+      "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_1.png",
+      "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_2.png",
+      "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_3.png",
+      "../assets/Personal Projects/GeneticAlgorithms/GeneticAlgorithms_4.png",
     ],
   },
   {
@@ -797,12 +800,13 @@ const personalProjects = [
     links: [
         { labelKey: "Github - sourceCode", url: "https://github.com/alejandro-robu/ParametricOptimization" },
     ],
-    video: "../assets/Personal Projects/ParametricOptimization/....mp4",
-    image: "../assets/Personal Projects/ParametricOptimization/....png",
+    video: "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_Gameplay.mp4",
+    image: "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_1.png",
     gallery: [
-      "../assets/Personal Projects/ParametricOptimization/....png",
-      "../assets/Personal Projects/ParametricOptimization/....png",
-      "../assets/Personal Projects/ParametricOptimization/....png",
+      "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_2.png",
+      "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_3.png",
+      "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_4.png",
+      "../assets/Personal Projects/ParametricOptimization/ParametricOptimization_5.png",
     ],
   },
   {
