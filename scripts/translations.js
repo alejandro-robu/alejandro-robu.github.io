@@ -36,7 +36,7 @@ const translations = {
     aboutText2:
       "I love taking on challenges, solving complex problems and bringing virtual worlds to life through responsive controls, polished systems and player-focused experiences. I live in Spain and I am fully open to working abroad to step out of my comfort zone and keep growing. Beyond the screen, I enjoy the countryside, the outdoors and spending time with my family and friends.",
     aboutOutro:
-      "Thank you for taking the time to look through my portfolio. Feel free to reach out — I'll always be happy to talk.",
+      "Thank you for taking the time to look through my portfolio. Feel free to reach out: I'll always be happy to talk.",
     skillsEyebrow: "Toolkit",
     skillsTitle: "Skills",
     skillsProgramming: "Programming",

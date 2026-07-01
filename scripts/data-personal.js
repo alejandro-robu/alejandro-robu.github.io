@@ -763,8 +763,8 @@ const personalProjects = [
       es: "Proyecto personal",
     },
     short: {
-      en: "Implementation and comparison of local search algorithms — Hill Climbing and Simulated Annealing — enhanced with momentum and random restarts.",
-      es: "Implementación y comparación de algoritmos de búsqueda local — Hill Climbing y Templado Simulado — mejorados con momento y múltiples reinicios.",
+      en: "Implementation and comparison of local search algorithms - Hill Climbing and Simulated Annealing - enhanced with momentum and random restarts.",
+      es: "Implementación y comparación de algoritmos de búsqueda local - Hill Climbing y Templado Simulado - mejorados con momento y múltiples reinicios.",
     },
     description: {
       en: "Parametric Optimization is a project focused on local search and heuristic optimization techniques in C#. Starting from a base implementation of Hill Climbing and Simulated Annealing, it extends both algorithms with momentum and random restarts to better escape local optima, and evaluates their behaviour, convergence and performance when optimizing a multimodal objective function.",
@@ -946,7 +946,7 @@ const personalProjects = [
   },
   {
     id: "rob-house-generation",
-    title: "RobHouse — Room Generation",
+    title: "RobHouse - Room Generation",
     year: "2024",
     statusKey: "statusFinished",
     type: {
@@ -963,8 +963,8 @@ const personalProjects = [
       es: "Proyecto personal",
     },
     short: {
-      en: "Procedural house generator in Unity that assembles modular rooms through directional connection points, recreating the room-generation side of REPO — the project that sparked my Bachelor's Thesis.",
-      es: "Generador procedural de casas en Unity que ensambla salas modulares mediante puntos de unión direccionales, recreando la parte de generación de salas de REPO — el proyecto que dio origen a mi TFG.",
+      en: "Procedural house generator in Unity that assembles modular rooms through directional connection points, recreating the room-generation side of REPO. This project sparked my Bachelor's Thesis.",
+      es: "Generador procedural de casas en Unity que ensambla salas modulares mediante puntos de unión direccionales, recreando la parte de generación de salas de REPO. Este proyecto dio origen a mi TFG.",
     },
     description: {
       en: "RobHouse is a personal project focused on procedural level generation by assembling prefab rooms through connection points. Each room exposes connection points with a cardinal direction (North, South, East, West), and the generator grows the house by snapping new rooms onto free connections whose directions are compatible (N↔S, E↔W). It aligns rooms by offsetting the new prefab so its connection point matches the target, rejects placements that overlap existing rooms by distance, seals leftover nearby connections so adjacent rooms don't leave dangling openings, and finally swaps doors and walls in depending on whether each connection ended up linked. A safety-retry cap keeps generation from stalling when no valid placement exists. This experiment with point-based modular assembly is exactly what led me to my Bachelor's Thesis on procedural terrain generation.",
